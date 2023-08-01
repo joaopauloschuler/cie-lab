@@ -1,7 +1,7 @@
 # cie-lab
 Source code for the paper "Delving into CIE L+AB Neuronal Branches".
 
-
+Results from the simple architecture:
 |Branches|Color space|1st layer filters|1st layer weights|Flops|Val. acc.|Label|
 |--------|-----------|-----------------|-----------------|-----|---------|-----|
 |1|GRAY|64 (1ch)|1600|2.8M|81.0\% | JP12A01 |
@@ -16,3 +16,11 @@ Source code for the paper "Delving into CIE L+AB Neuronal Branches".
 |2|LAB|42(1ch)+22(2ch)|2150|3.9M (1.9M+2.0M)|84.8\%| JP12B04 |
 |2|LAB|53(1ch)+11(2ch)|1875|3.3M (2.3M+1.0M)|84.1\%| JP12B05|
 |2|LAB|61(1ch)+3(2ch)|1675|3.0M (2.7M+267k)|83.1\%| JP12B97 |
+
+
+Results with DenseNet-BC L40
+|Branches|Color space|1st layer filters|1st layer weights|Flops|Val. acc.|Label|
+|--------|-----------|-----------------|-----------------|-----|---------|-----|
+|1|RGB|24(3ch)|176K|144M|92.0\%| JP21P02 |
+|2|LAB|16(1ch)+8(2ch)|150K|97M|91.9\%| JP21P03 |
+
