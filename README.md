@@ -1,5 +1,5 @@
 # cie-lab
-Source code for the paper "Delving into CIE L+AB Neuronal Branches".
+Source code for the paper "Enhancing Convolutional Neural Networks with Achromatic and Chromatic Pathways".
 
 Results from the simple architecture:
 |Branches|Color space|1st layer filters|1st layer weights|Flops|Val. acc.|Label|
