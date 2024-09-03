@@ -1,5 +1,5 @@
 # cie-lab
-This is the git repository for the paper "Enhancing Convolutional Neural Networks with Achromatic and Chromatic Pathways".
+This is the git repository for the paper **Enhancing Convolutional Neural Networks with Achromatic and Chromatic Pathways** .
 
 Results from the simple architecture:
 |Branches|Color space|1st layer filters|1st layer weights|Flops|Val. acc.|Label|
