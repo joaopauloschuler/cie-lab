@@ -5,7 +5,7 @@ This is the git repository for the paper **Enhancing Convolutional Neural Networ
 Previous works have shown that chromatic and achromatic dedicated neuronal branches help convolutional neural networks (CNNs) to become noise resistant and achieve state of the art classification accuracy at plant disease classification. In this paper, our aim is not to find an optimal classification accuracy but to acquire insights on how CNNs deal with color related information. We show that CNNs can learn achromatic and chromatic specific filters. We show that creating chromatic and achromatic specific branches reduces DenseNet-BC L40 forward pass floating-point computations in 33\% while maintaining the baseline classification accuracy.
 
 ## Results
-Results from the simple architecture:
+Results with the small architecture:
 |Branches|Color space|1st layer filters|1st layer weights|Flops|Val. acc.|Label|
 |--------|-----------|-----------------|-----------------|-----|---------|-----|
 |1|GRAY|64 (1ch)|1600|2.8M|81.0\% | JP12A01 |
@@ -22,7 +22,7 @@ Results from the simple architecture:
 |2|LAB|61(1ch)+3(2ch)|1675|3.0M (2.7M+267k)|83.1\%| JP12B97 |
 
 
-Results with DenseNet-BC L40
+Results with the DenseNet-BC L40
 |Branches|Color space|1st layer filters|1st layer weights|Flops|Val. acc.|Label|
 |--------|-----------|-----------------|-----------------|-----|---------|-----|
 |1|RGB|24(3ch)|176K|144M|92.0\%| JP21P02 |
