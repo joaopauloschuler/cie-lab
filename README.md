@@ -25,7 +25,7 @@ Results with the small architecture:
 Results with the DenseNet-BC L40
 |Branches|Color space|1st layer filters|1st layer weights|Flops|Val. acc.|Label|
 |--------|-----------|-----------------|-----------------|-----|---------|-----|
-|1|RGB|24(3ch)|176K|144M|92.0\%| JP21P02 |
+|1|RGB|24(3ch)|176K|144M|92.0\%| JP21P01 |
 |2|LAB|16(1ch)+8(2ch)|150K|97M|91.9\%| JP21P03 |
 
 ## Give this Project a Star
