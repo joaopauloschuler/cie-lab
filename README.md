@@ -1,6 +1,10 @@
-# cie-lab
-This is the git repository for the paper **Enhancing Convolutional Neural Networks with Achromatic and Chromatic Pathways** .
+# Enhancing Convolutional Neural Networks with Achromatic and Chromatic Pathways
+This is the git repository for the paper **Enhancing Convolutional Neural Networks with Achromatic and Chromatic Pathways** by Dr. Joao Paulo Schwarz Schuler and Dr. Alejandra Rojas-Gómez.
 
+## Abstract
+Previous works have shown that chromatic and achromatic dedicated neuronal branches help convolutional neural networks (CNNs) to become noise resistant and achieve state of the art classification accuracy at plant disease classification. In this paper, our aim is not to find an optimal classification accuracy but to acquire insights on how CNNs deal with color related information. We show that CNNs can learn achromatic and chromatic specific filters. We show that creating chromatic and achromatic specific branches reduces DenseNet-BC L40 forward pass floating-point computations in 33\% while maintaining the baseline classification accuracy.
+
+## Results
 Results from the simple architecture:
 |Branches|Color space|1st layer filters|1st layer weights|Flops|Val. acc.|Label|
 |--------|-----------|-----------------|-----------------|-----|---------|-----|
@@ -24,3 +28,21 @@ Results with DenseNet-BC L40
 |1|RGB|24(3ch)|176K|144M|92.0\%| JP21P02 |
 |2|LAB|16(1ch)+8(2ch)|150K|97M|91.9\%| JP21P03 |
 
+## Give this Project a Star
+This project is an open source project. If you like what you see, please give it a star on github.
+
+## Citing this Paper
+```
+@article{Schuler_2026_Achromatic_Chromatic_Pathways,
+  title={Color-Aware Two-Branch DCNN for Efficient Plant Disease Classification}, 
+  volume={TBC}, 
+  url={https://mendel-journal.org/index.php/mendel/article/view/425},
+  DOI={TBC},
+  number={TBC},
+  journal={MENDEL},
+  author={Schwarz Schuler, Joao Paulo and Rojas-Gómez, Alejandra},
+  year={2026},
+  month={TBC},
+  pages={TBC}
+}
+```
