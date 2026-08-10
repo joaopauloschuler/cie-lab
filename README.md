@@ -2,7 +2,7 @@
 This is the git repository for the paper **Enhancing Convolutional Neural Networks with Achromatic and Chromatic Pathways** by [Dr. Joao Paulo Schwarz Schuler](https://www.researchgate.net/profile/Joao-Paulo-Schwarz-Schuler) and [Dr. Alejandra Rojas-Gómez](https://www.researchgate.net/profile/Alejandra-Rojas-Gomez).
 
 ## Abstract
-Previous works have shown that chromatic and achromatic dedicated neuronal branches help convolutional neural networks (CNNs) to become noise resistant and achieve state of the art classification accuracy at plant disease classification. In this paper, our aim is not to find an optimal classification accuracy but to acquire insights on how CNNs deal with color related information. We show that CNNs can learn achromatic and chromatic specific filters. We show that creating chromatic and achromatic specific branches reduces DenseNet-BC L40 forward pass floating-point computations in 33\% while maintaining the baseline classification accuracy.
+Previous works have shown that chromatic and achromatic dedicated neuronal branches help convolutional neural networks (CNNs) to become noise resistant and achieve state of the art classification accuracy at plant disease classification. In this paper, our aim is not to find an optimal classification accuracy but to acquire insights on how CNNs deal with color related information. We show that CNNs can learn achromatic and chromatic specific filters. We show that creating chromatic and achromatic specific branches reduces DenseNet-BC L40 forward pass floating-point computations by 33% while maintaining the baseline classification accuracy.
 
 ## Results
 Results with the small architecture:
